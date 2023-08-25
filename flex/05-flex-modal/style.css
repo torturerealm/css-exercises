@@ -22,6 +22,8 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   display: flex;
   padding: 16px;
+  /* We can put gap here instead to separate icon from container */
+  gap: 16px;
 }
 
 .icon {
@@ -36,7 +38,7 @@ body {
   flex-shrink: 0;
   align-items: center;
   justify-content: center;
-  margin-right: 16px;
+  /* margin-right: 16px; */
 }
 
 .header {
@@ -68,7 +70,7 @@ button {
 }
 
 .text {
-  padding: 16px 0;
+  padding: 8px 0 16px;
 }
 
 button.continue {
