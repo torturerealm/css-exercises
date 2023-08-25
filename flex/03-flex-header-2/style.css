@@ -14,11 +14,11 @@ body {
   box-shadow: 0 0 8px rgba(0,0,0,.1);
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  /* align-items: center; (unnecessary) */
   padding: 8px;
 }
 
-.left {
+/* .left {
   display: flex;
   align-items: center;
   gap: 16px;
@@ -27,7 +27,16 @@ body {
 .right {
   display: flex;
   gap: 16px;
+} */
+
+/* Combine above into single declaration */
+
+.right, .left {
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
+
 
 .profile-image {
   background: rebeccapurple;
