@@ -12,6 +12,11 @@ body {
 .header, .footer {
   display: flex;
   justify-content: space-between;
+  padding: 16px;
+}
+
+.content {
+  flex: 1;
 }
 
 img {
