@@ -23,6 +23,10 @@ body {
   align-items: center;
 }
 
+.footer {
+  background-color: #eeeeee;
+}
+
 img {
   width: 600px;
 }
